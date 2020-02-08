@@ -5,7 +5,10 @@ This project was generated with [Angular CLI] version 8.3.24.
 
 ## Preview
 
-https://raw.githubusercontent.com/alefortvi/login/master/src/assets/prev.png
+
+![alt text](https://raw.githubusercontent.com/alefortvi/login/master/src/assets/prev.png "")
+
+
 
 ## Node Version
 

@@ -58,7 +58,7 @@ html {
   width: 26px;
 }
 
-.header_text_container{
+.header-text-container{
   position: relative;
   width: 0px;
   top: -30%;
@@ -73,20 +73,20 @@ html {
 }
 /* BODY */
 
-.form-card {
-
+.form-card-container{
+  position: relative;
+  top: 10%;
 }
-/* INPUTS */
+
+  /* INPUTS */
 .input-user,
 .input-pass:focus {
   box-shadow: none !important;
   outline: 0px !important;
-  font-family: "Liberation Sans";
 }
 
 .form-card-checkbox{
   color: rgba(0,0,0,0.87);
-  margin-left: 00%;
 }
 /* Login button*/
 .form-buttons {
@@ -107,7 +107,7 @@ html {
 }
 
 .forgot-pass{
-  margin-right: 00%;
+
 }
 
 .hor-divider{

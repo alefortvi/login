@@ -1,7 +1,7 @@
 <div class="container h-100">
   <div class="d-flex justify-content-center h-100">
     <div class="user-card d-flex flex-column">
-<!--HEADER-->
+      <!--HEADER-->
       <div class="d-flex justify-content-center">
         <div class="header-card justify-content-center">
           <div class="logo_container">
@@ -12,52 +12,51 @@
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <div class="header_text_container justify-content-center">
+          <div class="header-text-container justify-content-center">
             <div class="header-text text-center">Bienvenido a Lea.<span class="it">fit</span></div>
           </div>
         </div>
       </div>
+      <!--      card body-->
+      <div class="d-flex justify-content-center  h-100">
+        <div class="form-card-container">
+          <form>
+            <div class="input-group mb-4">
+              <input type="text" name="" class="form-control input-user" value="" placeholder="Usuario">
+            </div>
+            <div class="input-group mb-2">
+              <input type="password" name="" class="form-control input-pass" value="" placeholder="Contraseña">
+            </div>
 
-      <div class="d-flex justify-content-center form-card">
-        <form>
-          <div class="input-group mb-3">
-            <input type="text" name="" class="form-control input-user" value="" placeholder="Usuario">
-          </div>
-          <div class="input-group mb-2">
-            <input type="password" name="" class="form-control input-pass" value="" placeholder="Contraseña">
-          </div>
+            <div class="d-flex justify-content-center mt-4 login_button_container">
+              <button type="button" name="button" class="btn form-buttons">Ingresar</button>
+            </div>
 
-          <div class="d-flex justify-content-center mt-4 login_button_container">
-            <button type="button" name="button" class="btn form-buttons">Ingresar</button>
-          </div>
+            <!--check keep conencted-->
+            <div class="grid-container mt-5">
+              <div class="form-group">
+                <div class="custom-control form-card-checkbox">
+                  <input type="checkbox" class="custom-control-input " id="customControlInline">
+                  <label class="custom-control-label" for="customControlInline">Recordar</label>
+                </div>
+              </div>
 
-          <!--      LINKS PASS BLACK AND SIGN UP-->
-          <div class="grid-container mt-5">
-
-            <div class="form-group">
-              <div class="custom-control form-card-checkbox">
-                <input type="checkbox" class="custom-control-input " id="customControlInline">
-                <label class="custom-control-label" for="customControlInline">Recordar</label>
+              <!--forgot pass-->
+              <div class="float-right forgot-pass">
+                <a href="#">Olvidé mi contraseña</a>
               </div>
             </div>
 
+            <div class="hor-divider"></div>
 
-            <div class="float-right forgot-pass">
-              <a href="#">Olvidé mi contraseña</a>
+            <div class="d-flex justify-content-center mt-3 login_button_container">
+              <button type="button" name="button" class="btn form-buttons">Registrate</button>
             </div>
-          </div>
+          </form>
 
+        </div>
 
-
-
-          <div class="hor-divider"></div>
-
-          <div class="d-flex justify-content-center mt-3 login_button_container">
-            <button type="button" name="button" class="btn form-buttons">Registrate</button>
-          </div>
-        </form>
       </div>
-<!--      DIVISOR-->
 
     </div>
   </div>

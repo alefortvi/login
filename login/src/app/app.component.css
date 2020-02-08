@@ -7,12 +7,13 @@ html {
   background: #60a3bc !important;
 }
 .user_card {
-  height: 400px;
+  height: 450px;
   width: 350px;
   margin-top: 110px;
   margin-bottom: auto;
-  background: #212121;
+  background: #E1E2E1;
   position: relative;
+  font-family: "Liberation Sans";
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -23,23 +24,23 @@ html {
 }
 
 .header-card{
-  background-color: #e1e2e1;
+  background-color: #2e7d32;
   width: 350px;
   margin-right: -20px;
   margin-left: -20px;
-  top: 25px;
-  height: 100px;
+  top: -25px;
+  height: 110px;
   position: relative;
 }
 
-/* BODY */
+/* HEADER */
 
 /** LOGO */
 .logo_container {
   position: relative;
   height: 180px;
   width: 180px;
-  top: -50px;
+  top: -60px;
   left: 50%;
   margin-left: -50px;
 
@@ -51,11 +52,11 @@ html {
 
 /** CLOSE */
 .close_container {
-  position: relative;
-  height: 30px;
-  width: 30px;
-  top: 10px;
-  right: 20px;
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  top: -35px;
+  right: -35px;
   padding: 10px;
   z-index: 3;
 }
@@ -65,45 +66,69 @@ html {
   width: 25px;
 }
 
-.header-card .header-text{
+.header-text{
   position: relative;
-  top: -120px;
+  top: -130px;
   text-align: center;
-  font-family: "Roboto";
+  font-family: "Liberation Sans";
   font-size: 25px;
-  color: rgba(0,0,0,0.87) ;
+  color: rgba(255,255,255,0.87) ;
   font-weight: 400;
   -webkit-font-smoothing:antialiased;
 }
-
 /* BODY */
 
-.form_container {
-  margin-top: 100px;
+.form-card {
+
 }
-.login_btn {
+/* INPUTS */
+.input-user,
+.input-pass:focus {
+  box-shadow: none !important;
+  outline: 0px !important;
+  font-family: "Liberation Sans";
+}
+
+.form-card-checkbox{
+  color: rgba(0,0,0,0.87);
+  margin-left: 00%;
+}
+/* Login button*/
+.form-buttons {
+  width: 80%;
+  background-color: #2e7d32 !important;
+  color: white !important;
+  padding: 1 2rem;
+}
+.form-buttons:focus{
+  box-shadow: none !important;
+  outline: 0px !important;
+
+}
+.form-buttons:hover {
+  background-color: #60ac5d !important;
+  box-shadow: none !important;
+  outline: 0px !important;
+}
+
+.forgot-pass{
+  margin-right: 00%;
+}
+
+.hor-divider{
+  margin-top: .1rem;
+  margin-bottom: 1rem;
   width: 100%;
-  background: #c0392b !important;
-  color: white !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+
 }
-.login_btn:focus {
-  box-shadow: none !important;
-  outline: 0px !important;
+
+/* Links */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: ". .";
 }
-.login_container {
-  padding: 0 2rem;
-}
-.input-group-text {
-  background: #c0392b !important;
-  color: white !important;
-  border: 0 !important;
-  border-radius: 0.25rem 0 0 0.25rem !important;
-}
-.input_user,
-.input_pass:focus {
-  box-shadow: none !important;
-  outline: 0px !important;
-}
-.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
-  background-color: #c0392b !important;
-}
+
+
